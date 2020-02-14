@@ -654,6 +654,7 @@ body {
       }
       .con-flex > {
         width: 50%;
+        
       }
       
     }
@@ -683,6 +684,12 @@ body {
       color:  #AF9453;
       letter-spacing: 0.2rem;
       cursor: pointer;
+    }
+    @media all and (max-width:768px)
+    {
+      label{
+        display: none;
+      }
     }
   }
   .con-contact-details {
@@ -1075,6 +1082,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
   animation: decor-slider 15s infinite ease;
+  background-size: cover;
 }
 @keyframes decor-slider {
   0% { background-image: url(../images/decor1.jpg); }
