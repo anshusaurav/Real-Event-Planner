@@ -1059,6 +1059,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   animation: ven-slider 15s infinite ease;
+  background-size: cover;
 }
 
 @keyframes ven-slider {
@@ -1100,6 +1101,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   animation: guest-slider 15s infinite ease;
+  background-size: cover;
 }
 
 @keyframes guest-slider {
@@ -1123,6 +1125,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   animation: artist-slider 20s infinite ease;
+  background-size: cover;
 }
 
 @keyframes artist-slider {
@@ -1152,6 +1155,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   animation: photo-slider 20s infinite ease;
+  background-size: cover;
 }
 
 @keyframes photo-slider {
@@ -1172,6 +1176,7 @@ body {
   -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
   animation: invite-slider 20s infinite ease;
+  background-size: cover;
 }
 
 @keyframes invite-slider {
