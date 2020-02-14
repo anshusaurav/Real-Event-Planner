@@ -98,7 +98,12 @@ img {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
 }
 
 h2 {
@@ -814,7 +819,11 @@ body {
   margin-bottom: 3rem;
   grid-template-columns: repeat(auto-fill, 100px);
   grid-auto-rows: 100px;
+  grid-gap: 1rem;
   grid-auto-flow: dense;
+  padding: 2% 0 2% 4.5%;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(255, 220, 200, 0.25), rgba(0, 0, 0, 0.25)), url("../images/Rainbow-Vortex.svg");
   overflow: hidden;
 }
 .gal-gallery .gal-item {
@@ -880,7 +889,7 @@ body {
 @media all and (max-width: 768px) {
   .gal-primary .gal-header {
     grid-template-columns: 3fr 16fr 3fr;
-    grid-template-areas: "hel2 hel2 sb2" "hel1 image image" "hel1 image image" "hel1 image image" "hel1 image image" "sb1 image image";
+    grid-template-areas: "hel2 hel2 sb2" "hel1 image image" "hel1 image image" "hel1 image image" "hel1 image image" "hel1 image image" "hel1 image image" "hel1 image image" "sb1 image image";
   }
 }
 .gal-primary .gal-header-main {
@@ -902,7 +911,7 @@ body {
 }
 .gal-primary .gal-header-img {
   grid-area: image;
-  background-image: linear-gradient(to right, rgba(0, 2, 255, 0.25), rgba(0, 0, 0, 0.25)), url("../images/gal-header-bg.svg");
+  background-image: linear-gradient(to right, rgba(255, 220, 200, 0.25), rgba(0, 0, 0, 0.25)), url("../images/gal-header-bg.svg");
   background-size: cover;
 }
 .gal-primary .gal-header-img h2 {
@@ -910,7 +919,7 @@ body {
   text-align: center;
   align-self: center;
   background: transparent;
-  color: #AF9453;
+  color: black;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -920,7 +929,7 @@ body {
   text-align: center;
   place-self: center;
   background: transparent;
-  color: wheat;
+  color: black;
   font-style: italic;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
   letter-spacing: 0.1rem;
@@ -1005,8 +1014,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-gap: 1rem;
+  margin: 0 1rem;
   margin-bottom: 3rem;
-  margin-left: 3rem;
 }
 @media all and (max-width: 786px) {
   .venue-grid {

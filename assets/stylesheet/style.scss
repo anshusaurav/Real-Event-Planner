@@ -756,7 +756,14 @@ body {
   @extend %grid;
   grid-template-columns: repeat(auto-fill, 100px);
   grid-auto-rows: 100px;
+  grid-gap: 1rem;
   grid-auto-flow: dense;
+  padding: 2% 0 2% 4.5%;
+  margin: 0 auto;
+  //Rainbow-Vo rtex
+  background-image: linear-gradient(to right, rgba(255, 220, 200, 0.25), rgba(0, 0, 0, 0.25)),url('../images/Rainbow-Vortex.svg');//, linear-gradient(110deg, #f9bd3d65, #6d47d9);
+      
+  
   overflow: hidden;
   .gal-item {
     @extend %grid;
@@ -843,6 +850,9 @@ body {
         "hel1 image image"
         "hel1 image image"
         "hel1 image image"
+        "hel1 image image"
+        "hel1 image image"
+        "hel1 image image"
         "sb1 image image";
         
       } 
@@ -868,7 +878,7 @@ body {
   .gal-header-img{
       @extend %grid;
       grid-area: image;
-      background-image: linear-gradient(to right, rgba(0, 2, 255, 0.25), rgba(0, 0, 0, 0.25)),url('../images/gal-header-bg.svg');//, linear-gradient(110deg, #f9bd3d65, #6d47d9);
+      background-image: linear-gradient(to right, rgba(255, 220, 200, 0.25), rgba(0, 0, 0, 0.25)),url('../images/gal-header-bg.svg');//, linear-gradient(110deg, #f9bd3d65, #6d47d9);
       background-size: cover;
      
       h2{
@@ -876,7 +886,7 @@ body {
         text-align: center;
         align-self: center;
         background: transparent;
-        color: #AF9453;
+        color: rgb(0, 0, 0);
         text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
         letter-spacing: 0.3rem;
         text-transform: uppercase;
@@ -886,7 +896,7 @@ body {
         text-align: center;
         place-self: center;
         background: transparent;
-        color: wheat;
+        color: black;
         font-style: italic;
         text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
         letter-spacing: 0.1rem;
@@ -1016,8 +1026,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-gap: 1rem;
+  margin: 0 1rem;
   margin-bottom: 3rem;
-  margin-left: 3rem;
   @media all and (max-width: 786px) {
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
