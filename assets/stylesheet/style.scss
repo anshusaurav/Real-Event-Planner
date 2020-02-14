@@ -254,7 +254,7 @@ body {
      padding: 0 20px ;
      border-radius: 50%;
      border: black;
-     background-color: #af9453;
+     background-color: #3b321b;
    }
  }
 
@@ -645,6 +645,7 @@ body {
       p{
         color: #AF9453;
         letter-spacing: 0.2rem;
+        text-align: center;
       }
       .con-flex {
         @extend %flex;
@@ -876,9 +877,9 @@ body {
         align-self: center;
         background: transparent;
         color: #AF9453;
-        font-style: italic;
         text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
         letter-spacing: 0.3rem;
+        text-transform: uppercase;
       }
       p{
         width: 70%;
@@ -960,6 +961,7 @@ body {
 
 .ser-gridcontain {
   display: grid;
+  margin: 3rem 0;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr;
   @media all and (max-width: 786px) {
@@ -1000,10 +1002,11 @@ body {
   font-size: 1.2rem;
   color: #ffffff;
   border: #ffffff;
+  font-family: inherit;
+  border: 1px solid #af9453;
   &:hover {
     background-color: #ffffff;
     color: #af9453;
-    border: 1px solid #af9453;
   }
 }
 

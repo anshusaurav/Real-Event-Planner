@@ -401,7 +401,7 @@ body {
   padding: 0 20px;
   border-radius: 50%;
   border: black;
-  background-color: #af9453;
+  background-color: #3b321b;
 }
 
 .footer {
@@ -720,6 +720,7 @@ body {
 .con-primary .con-contact-form .con-form p {
   color: #AF9453;
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 .con-primary .con-contact-form .con-form .con-flex {
   flex-wrap: wrap;
@@ -910,9 +911,9 @@ body {
   align-self: center;
   background: transparent;
   color: #AF9453;
-  font-style: italic;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
   letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 .gal-primary .gal-header-img p {
   width: 70%;
@@ -946,6 +947,7 @@ body {
 
 .ser-gridcontain {
   display: grid;
+  margin: 3rem 0;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -991,11 +993,12 @@ body {
   font-size: 1.2rem;
   color: #ffffff;
   border: #ffffff;
+  font-family: inherit;
+  border: 1px solid #af9453;
 }
 .btn-readmore:hover {
   background-color: #ffffff;
   color: #af9453;
-  border: 1px solid #af9453;
 }
 
 .venue-grid {
