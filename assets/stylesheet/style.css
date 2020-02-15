@@ -192,6 +192,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.header .logo {
+  position: relative;
+  z-index: 10;
+}
 .header .logo h1 {
   font-family: "Dancing Script", cursive;
   color: #af9453;
@@ -213,6 +217,9 @@ body {
   }
   .header .ham-menu {
     display: inline-block;
+    position: relative;
+    z-index: 10;
+    color: #af9453;
   }
   .header #toggle {
     display: none;

@@ -13,6 +13,10 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  .logo{
+    position: relative;
+    z-index: 10;
+  }
   .logo h1 {
     font-family: 'Dancing Script', cursive;
     color: #af9453;
@@ -25,6 +29,8 @@ body {
   }
   .ham-menu {
     display: none;
+    
+
   }
 
   @media all and (max-width: 768px)
@@ -35,6 +41,9 @@ body {
     }
     .ham-menu  {
       display: inline-block;
+      position: relative;
+      z-index: 10;
+      color: #af9453;
 
     }
     #toggle {
